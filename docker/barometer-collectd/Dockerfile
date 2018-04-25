@@ -9,7 +9,7 @@ ENV repos_dir /src
 ENV openstack_plugins /src/barometer/src/collectd-openstack-plugins
 
 WORKDIR ${repos_dir}
-RUN git clone https://gerrit.opnfv.org/gerrit/barometer
+RUN git clone https://github.com/abays/collectd --branch debug-notifications
 WORKDIR ${repos_dir}/barometer/systems
 RUN sh ./build_base_machine.sh && \
         useradd -ms /bin/bash collectd_exec && \
