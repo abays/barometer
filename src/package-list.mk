@@ -18,8 +18,8 @@ KAFKA_URL ?= https://github.com/edenhill/librdkafka.git
 KAFKA_TAG ?= v0.9.5
 
 # collectd section
-COLLECTD_URL ?= https://github.com/collectd/collectd
-COLLECTD_TAG ?= collectd-5.8
+COLLECTD_URL ?= https://github.com/abays/collectd
+COLLECTD_TAG ?= debug-notifications
 
 COLLECTD_OPENSTACK_URL ?= https://github.com/openstack/collectd-openstack-plugins
 COLLECTD_OPENSTACK_TAG ?= stable/pike
